@@ -1,0 +1,51 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the top navigation bar */
+.top-nav {
+  background-color: #333;
+  height: 40px;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.top-nav li {
+  width: 20%;
+  text-align: center;
+}
+
+.top-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+/* Add a color to the active/current link */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.top-nav a:hover {
+  background-color: #90bffc;
+}
+
+/* Style the centered image */
+.center-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
