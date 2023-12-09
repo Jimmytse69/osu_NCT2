@@ -49,3 +49,58 @@
   max-width: 100%;
   height: auto;
 }
+
+
+/* under it start of mappool and timetable */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.banner{
+  height: 40px;
+  width: 120px;
+}
+
+.nm {
+  background-color: rgb(205, 221, 255);
+}
+
+.hd {
+  background-color: rgb(249, 255, 192);
+}
+
+.hr {
+  background-color: rgb(255, 205, 205);
+}
+
+.dt {
+  background-color: rgb(224, 193, 250);
+}
+
+.fm {
+  background-color: rgb(255, 225, 205);
+}
+
+.tb {
+  background-color: rgb(255, 205, 238);
+}
