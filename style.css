@@ -104,3 +104,36 @@ a:hover {
 .tb {
   background-color: rgb(255, 205, 238);
 }
+
+.links {
+  text-align: center;
+  }
+
+.links img {
+    display: block;
+    margin: auto;
+}  
+
+.top-icon {
+  background-color: #04AA6D;
+  color: white;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  position: fixed;
+  top: 7.1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-link-discord {
+  margin-top: 8px;
+  left: 8px;
+  position: fixed;
+}
+
+.top-link-challonge {
+  margin-top: -16px;
+  right: 8px;
+  position: fixed;
+}
