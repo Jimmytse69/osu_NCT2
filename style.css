@@ -5,7 +5,20 @@
   box-sizing: border-box;
 }
 
-/* Apply styles to the top navigation bar */
+@font-face {
+  font-family: 'Aller Bold';
+  src: url('font/aller/Aller_Bd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Aller';
+  src: url('font/aller/Aller_Rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .top-nav {
   background-color: #333;
   height: 40px;
@@ -22,6 +35,7 @@
 .top-nav li {
   width: 20%;
   text-align: center;
+  font-family: 'Aller', sans-serif;
 }
 
 .top-nav a {
@@ -107,6 +121,9 @@ a:hover {
 
 .links {
   text-align: center;
+  font-family: 'Aller Bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
   }
 
 .links img {
