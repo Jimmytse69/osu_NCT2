@@ -63,6 +63,7 @@
   max-width: 100%;
   height: auto;
 }
+/* above for home page and setting */
 
 
 /* under it start of mappool and timetable */
@@ -119,6 +120,7 @@ a:hover {
   background-color: rgb(255, 205, 238);
 }
 
+/* for #links */
 .links {
   text-align: center;
   font-family: 'Aller Bold', sans-serif;
@@ -131,26 +133,49 @@ a:hover {
     margin: auto;
 }  
 
-.top-icon {
-  background-color: #04AA6D;
-  color: white;
-  height: 50px;
-  width: 120px;
+.linksInline {
+  /*https://stackoverflow.com/questions/38896055/how-to-center-align-a-flexbox-container#:~:text=Use%20margin%3A0px%20auto%3B%20with%20a%20width.%20For%20example%3A.container,display%3Aflex%3B%20flex-wrap%3Awrap%3B%20text-align%3Acenter%3B%20margin%3A0px%20auto%3B%20width%3A%20400px%3B%20%7D*/
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
-  position: fixed;
-  top: 7.1%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  
+  font-family: 'Aller Bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
-.top-link-discord {
-  margin-top: 8px;
-  left: 8px;
-  position: fixed;
+
+
+/* for #rules */
+div.rules{
+  font-family: 'Aller Bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  
+
+  padding: 2px;
+  margin: 12px;
+  border: 2px solid #3431d1;
+
+
 }
 
-.top-link-challonge {
-  margin-top: -16px;
-  right: 8px;
-  position: fixed;
+.rules h1{
+  font-family: 'Aller Bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  color: orange;
+}
+
+.rules ol{
+  margin: 24px;
+}
+
+.rules h3{
+  color: #608bc4;
 }
