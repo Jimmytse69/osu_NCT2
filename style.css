@@ -131,7 +131,14 @@ a:hover {
 .links img {
     display: block;
     margin: auto;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
 }  
+
+.links img:hover {
+  transform: scale(1.1); 
+}
+
 
 .linksInline {
   /*https://stackoverflow.com/questions/38896055/how-to-center-align-a-flexbox-container#:~:text=Use%20margin%3A0px%20auto%3B%20with%20a%20width.%20For%20example%3A.container,display%3Aflex%3B%20flex-wrap%3Awrap%3B%20text-align%3Acenter%3B%20margin%3A0px%20auto%3B%20width%3A%20400px%3B%20%7D*/
@@ -145,7 +152,14 @@ a:hover {
   font-style: normal;
 }
 
+.linksInline img {
+  transition: transform 0.3s ease-in-out;
+  margin-right: 10px;
+}
 
+.linksInline img:hover {
+  transform: scale(1.1); 
+}
 
 /* for #rules */
 div.rules{
