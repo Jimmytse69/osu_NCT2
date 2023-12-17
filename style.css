@@ -76,6 +76,25 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  display: none;
+  font-family: 'Aller', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tableselector {
+  font-family: 'Aller', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+}
+
+.tablecaption {
+  font-family: 'Aller Bold', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
 }
 
 th, td {
