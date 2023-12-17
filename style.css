@@ -76,7 +76,6 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  display: none;
   font-family: 'Aller', sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -93,6 +92,15 @@ table {
 .tablecaption {
   font-family: 'Aller Bold', sans-serif;
   font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mappooltable {
+  width: 100%;
+  border-collapse: collapse;
+  display: none;
+  font-family: 'Aller', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
