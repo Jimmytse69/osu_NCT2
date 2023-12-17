@@ -55,6 +55,12 @@
   background-color: #90bffc;
 }
 
+.datetimer {
+  font-family: 'Aller Bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  }
+
 /* Style the centered image */
 .center-image {
   display: block;
