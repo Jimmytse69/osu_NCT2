@@ -96,6 +96,14 @@ table {
   font-style: normal;
 }
 
+.tablecaptionDM {
+  font-family: 'Aller Bold', sans-serif;
+  color: palevioletred;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .mappooltable {
   width: 100%;
   border-collapse: collapse;
