@@ -234,3 +234,12 @@ div.rules{
 .rules h3{
   color: #608bc4;
 }
+
+/* color style for 90k and open */
+#open {
+  background-color:#8bf7e5
+}
+
+#ninety {
+  background-color: #ec96be;
+}
