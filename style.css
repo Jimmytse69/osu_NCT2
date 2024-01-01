@@ -21,7 +21,7 @@
 
 .top-nav {
   background-color: #333;
-  height: 40px;
+  height: 45px;
 }
 
 .top-nav ul {
@@ -36,13 +36,15 @@
   width: 20%;
   text-align: center;
   font-family: 'Aller', sans-serif;
+  font-weight: 500;
+  font-size: larger;
 }
 
 .top-nav a {
   display: block;
   color: #fff;
   text-decoration: none;
-  line-height: 40px;
+  line-height: 45px;
 }
 
 /* Add a color to the active/current link */
