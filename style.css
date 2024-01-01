@@ -75,7 +75,17 @@
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
+}
+
+.column2{
+  float: left;
+  width: 40%;
+}
+
+.column3{
+  float: right;
+  width: 30%;
 }
 
 /* Clear floats after the columns */
@@ -85,7 +95,56 @@
   clear: both;
 }
 
+#icon {
+  margin-left: 45%;
+  margin-right: 55%;
+}
 
+#home{
+  font-style: italic;
+  font-size: larger;
+}
+
+/*alert/news bar for #home*/
+
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+/* Callout header */
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+/* Callout container/body */
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+  color: lightgrey;
+}
 
 
 /* above for home page and setting */
@@ -195,8 +254,16 @@ a:hover {
     transition: transform 0.3s ease-in-out; 
 }  
 
-.links img:hover {
+/* clickable img */
+a > img:hover {
   transform: scale(1.1); 
+}
+
+a > img{
+  display: block;
+    margin: auto;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
 }
 
 
