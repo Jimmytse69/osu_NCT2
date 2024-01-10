@@ -162,12 +162,23 @@ table {
   font-style: normal;
 }
 
+#Timetable90k tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+#TimetableOpen tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
 .tableselector {
   font-family: 'Aller', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   position: fixed;
+  background-color: #4d4d4d;
+  color: #fff;
+
 }
 
 .tablecaption {
@@ -179,7 +190,6 @@ table {
 
 .tablecaptionDM {
   font-family: 'Aller Bold', sans-serif;
-  color: palevioletred;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -200,8 +210,8 @@ th, td {
 }
 
 th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+  background-color: #c5c5c5;
+  font-weight: bolder;
 }
 
 a {
