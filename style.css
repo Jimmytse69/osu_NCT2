@@ -123,7 +123,7 @@
 .callout-header {
   padding: 25px 15px;
   background: #555;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
 }
 
@@ -206,12 +206,22 @@ table {
 
 th, td {
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 th {
   background-color: #c5c5c5;
   font-weight: bolder;
+}
+
+#Red {
+  background-color: #f17878;
+  opacity: 85%;
+}
+
+#Blue {
+  background-color: #7b9cf7;
+  opacity: 85%;
 }
 
 a {
